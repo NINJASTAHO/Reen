@@ -344,6 +344,13 @@ a, a:hover{
     font-size: 14px;
     border-radius: 3px;
     padding: 18px 8px;
+    position: relative;
+}
+.footer-top-section .widget .form .form-control:hover, .footer-top-section .widget .form .form-control:focus{
+	border: 1px solid #00bc9c;
+	outline: none;
+	box-shadow: none;
+	color: #fff;
 }
 .footer-top-section .widget .form .btn-primary {
     color: #fff;
