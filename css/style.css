@@ -65,7 +65,18 @@ a, a:hover{
 /*Header-bottom-section goes here*/
 .header-section .bg-light{
 	padding: 20px 0px; 
-	background: #fff !important;
+	background: #fff;
+}
+.header-section .navbar-wrapper{
+	width: 100%;
+	position: relative;
+	z-index: 15;/*
+	background: rgba( 248, 249, 250, .7);*/
+}
+.header-section .isStuck{
+    left:0px;
+    width:100%;
+    background: rgba( 248, 249, 250, .7) !important;
 }
 .header-section .navbar-expand-lg .navbar-nav {
    margin-left: 20px;

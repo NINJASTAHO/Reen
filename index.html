@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- Font-awesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Wow CSS -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Font family CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 
@@ -60,7 +62,7 @@
   				</div>
   			</div>
   		</div>
-  		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-wrapper">
   			<div class="container">
   				
   				<a class="navbar-brand" href="index.html">
@@ -144,7 +146,7 @@
       <div class="container">
         
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 wow fadeInDown" data-wow-duration="3s">
             <div class="title">
               <h2>Beautiful. Clean. Responsive.</h2>
               <p>REEN is a high-quality solution for those who want a beautiful website in no time.<br>It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android,<br>it doesn't matter. Your content will always looks its absolute best.</p> 
@@ -153,7 +155,7 @@
         </div>
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInDown" data-wow-duration="1s">
             <div class="media">
               <img src="images/ic-1.png" alt="...">
               <div class="media-body">
@@ -162,7 +164,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInDown" data-wow-duration="1s"">
             <div class="media">
               <img src="images/ic-2.png" alt="...">
               <div class="media-body">
@@ -171,7 +173,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInDown" data-wow-duration="1s"">
             <div class="media">
               <img src="images/ic-3.png" alt="...">
               <div class="media-body">
@@ -191,8 +193,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="title">
-              <h2>Check out our latest works</h2>
-              <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+              <h2 class="wow fadeInDown" data-wow-duration="1s">Check out our latest works</h2>
+              <p class="wow fadeInDown" data-wow-duration="3s">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
             </div>
           </div>
         </div>
@@ -271,8 +273,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="title">
-              <h2>Want to work with us?</h2>
-              <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. <br> Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+              <h2  class="wow fadeInDown" data-wow-duration="1s">Want to work with us?</h2>
+              <p class="wow fadeInDown" data-wow-duration="3s">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. <br> Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
               <a href="#" class="btn btn-info">Get in touch</a>
             </div>
           </div>
@@ -387,27 +389,10 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script>
-      $('.owl-carousel').owlCarousel({
-          loop:true,
-          margin:10,
-          nav:false,
-          autoplay:true,
-          autoplayTimeout:8000,
-          responsive:{
-              0:{
-                  items:1
-              },
-              600:{
-                  items:3
-              },
-              1000:{
-                  items:4
-              }
-          }
-      })
-    </script>
+    <script src="js/stickUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
